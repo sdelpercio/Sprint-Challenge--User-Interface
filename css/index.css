@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -50,7 +49,7 @@ table {
 * {
     box-sizing: border-box;
 }
-
+/* GENERAL STYLES */
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -70,7 +69,25 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/* NAV STYLES HERE */
+#navigation {
+    height: 20%;
+    margin: 4% 0%;
+}
+#navigation nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+#navigation nav a {
+    text-decoration: none;
+    color: black;
+}
 
+/* TOP CONTENT STYLES */
+#top-image img {
+    margin-bottom: 4%;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -79,12 +96,13 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
+.text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
+/* MIDDLE STYLES */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -104,14 +122,45 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
+    background: black;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .box:nth-child(1) {
+    background-color: teal;
+}
+.middle-content .boxes .box:nth-child(2) {
+    background-color: gold;
+}
+.middle-content .boxes .box:nth-child(3) {
+    background-color: cadetblue;
+}
+.middle-content .boxes .box:nth-child(4) {
+    background-color: coral;
+}
+.middle-content .boxes .box:nth-child(5) {
+    background-color: crimson;
+}
+.middle-content .boxes .box:nth-child(6) {
+    background-color: forestgreen;
+}
+.middle-content .boxes .box:nth-child(7) {
+    background-color: darkorchid;
+}
+.middle-content .boxes .box:nth-child(8) {
+    background-color: hotpink;
+}
+.middle-content .boxes .box:nth-child(9) {
+    background-color: indigo;
+}
+.middle-content .boxes .box:nth-child(10) {
+    background-color: dodgerblue;
+}
 
+/* BOTTOM STYLES */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,6 +175,7 @@ p {
     padding-right: 0;
 }
 
+/* FOOTER STYLES */
 footer {
     width: 100%;
     background: black;
@@ -144,3 +194,119 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+/* ABOUT CSS STYLES */
+
+/* GENERAL STYLES */
+.container .about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* TOP SECTION STYLES */
+.about-content {
+    display: flex;
+    border-bottom: 1px dashed black;
+}
+.about-content .about-container {
+    width: 96%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+
+/* CARDS SECTION STYLES */
+#card-section {
+    margin: 0% 1%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#card-section .card {
+    width: 48%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+    border-bottom: 1px dashed black;
+}
+#card-section .card h3 {
+    padding-top: 2%;
+}
+#card-section .card .learnmore {
+    width: 32%;
+    margin: 4% 0%;
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* LETS WORK SECTION STYLES */
+#letswork-section {
+    margin: 4% 0%;
+}
+#letswork-section .text-container{
+    width: 96%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+
+
+
+
+/* CONTACT PAGE STYLES */
+
+/* GENERAL STYLES */
+.container .contact-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* TOP AND CONTACT SECTION */
+.contact-content {
+    display: flex;
+    border-bottom: 1px dashed black;
+}
+.contact-content .contact-container {
+    width: 96%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+
+/* FORM SECTION STYLES */
+#form-section {
+    margin: 4% 2%;
+    height: 60vh;
+}
+#form-section #contact-form div {
+    padding: 2% 0%;
+}
+#contact-form div p {
+    padding: 1% 0%;
+}
+input[type=text], input[type=email] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+textarea {
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+input[type=submit] {
+    background-color: #1E1E1E;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
