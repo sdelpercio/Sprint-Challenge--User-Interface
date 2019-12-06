@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -50,7 +49,7 @@ table {
 * {
     box-sizing: border-box;
 }
-
+/* GENERAL STYLES */
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -71,6 +70,7 @@ p {
     margin: 0 auto;
 }
 
+/* TOP CONTENT STYLES */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -85,6 +85,7 @@ p {
     padding-bottom: 20px;  
 }
 
+/* MIDDLE STYLES */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -112,6 +113,7 @@ p {
     justify-content: center;
 }
 
+/* BOTTOM STYLES */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,6 +128,7 @@ p {
     padding-right: 0;
 }
 
+/* FOOTER STYLES */
 footer {
     width: 100%;
     background: black;
