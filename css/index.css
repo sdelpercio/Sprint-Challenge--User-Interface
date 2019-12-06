@@ -96,7 +96,7 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
+.text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
@@ -193,4 +193,14 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+/* ABOUT CSS STYLES */
+
+/* GENERAL STYLES */
+.container .about-page {
+    width: 800px;
+    margin: 0 auto;
 }
