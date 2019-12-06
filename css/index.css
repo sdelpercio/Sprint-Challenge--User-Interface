@@ -204,3 +204,50 @@ footer nav a {
     width: 800px;
     margin: 0 auto;
 }
+
+/* TOP SECTION STYLES */
+.about-content {
+    display: flex;
+    border-bottom: 1px dashed black;
+}
+.about-content .about-container {
+    width: 96%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+
+/* CARDS SECTION STYLES */
+#card-section {
+    margin: 0% 1%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#card-section .card {
+    width: 48%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+    border-bottom: 1px dashed black;
+}
+#card-section .card h3 {
+    padding-top: 2%;
+}
+#card-section .card .learnmore {
+    width: 32%;
+    margin: 4% 0%;
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* LETS WORK SECTION STYLES */
+#letswork-section {
+    margin: 4% 0%;
+}
+#letswork-section .text-container{
+    width: 96%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
